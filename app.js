@@ -53,7 +53,6 @@ const randomMole = (moles) => {
   const mole = moles[randomIdx];
 
   if (mole === lastMole) {
-    console.log('DOUBLE');
     return randomMole(moleImg);
   }
 
@@ -103,15 +102,12 @@ const peep = (newTime, isTimeout) => {
 
   if (score === lastScore) {
     fails--;
-    console.log(fails);
   }
 
   lastScore = score;
 };
 
 const updateScoreboard = () => {
-  console.log({ score });
-
   const rank =
     score < 10
       ? 'EASY'
@@ -151,7 +147,7 @@ let score = 0;
 let lastScore;
 let fails = 5;
 const initInterval = 2000;
-const minTime = 500;
+const minTime = 650;
 const images = [
   'assets/angry.svg',
   'assets/whoa.svg',
