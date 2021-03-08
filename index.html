@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Whack-A-Mole V1</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- START -->
+      <div class="start-window">
+        START WINDOW
+        <button class="start-btn noselect">START</button>
+      </div>
+
+      <!-- GAME -->
+      <div class="game-window">
+        <div class="scoreboard">
+          <span class="score"></span>
+          <span class="rank"></span>
+          <span class="fails"></span>
+        </div>
+
+        <div class="grid">
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-1" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-2" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-3" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-4" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-5" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-6" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-7" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-8" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+          <div class="grid-item noselect">
+            <img class="mole-img noselect" id="mole-9" src="" alt="mole" />
+            <img class="hole-img noselect" src="" alt="hole" />
+          </div>
+        </div>
+
+        <div class="footer noselect">FOOTER</div>
+      </div>
+
+      <!-- RESULT -->
+      <div class="result-window">
+        RESULT WINDOW
+        <span class="result-title">Your score:</span>
+        <span class="result-score"></span>
+        <button class="play-again-btn">PLAY AGAIN</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
