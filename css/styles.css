@@ -95,6 +95,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: plum;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 .game-window .scoreboard {

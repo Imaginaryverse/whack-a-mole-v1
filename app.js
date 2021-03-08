@@ -102,6 +102,11 @@ const peep = (newTime, isTimeout) => {
 
   if (score === lastScore) {
     fails--;
+
+    gameWindow.style.backgroundColor = 'salmon';
+    setTimeout(() => {
+      gameWindow.style.backgroundColor = 'plum';
+    }, 100);
   }
 
   lastScore = score;
